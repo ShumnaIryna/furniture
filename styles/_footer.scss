@@ -1,0 +1,39 @@
+.footer {
+  padding: 74px 0;
+
+  &__wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 100px;
+    border-top: 2px solid $main-color;
+  }
+
+  &__nav {
+    width: 25%;
+    padding-right: 100px;
+
+    &-title {
+      font: $h5-font;
+      color: $main-color;
+      padding-bottom: 51px;
+    }
+
+    &-item:not(:last-child) {
+      margin-bottom: 27px;
+    }
+
+    &-link {
+      font: 400 18px/1.2 $montserrat-font;
+      color: $main-color;
+      opacity: 0.8;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}

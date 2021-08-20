@@ -43,8 +43,7 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -81,7 +80,6 @@ ul {
 
 a {
   text-decoration: none;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   color: #282a30;
 }
@@ -91,7 +89,7 @@ a {
 }
 
 .container {
-  min-width: 1260px;
+  max-width: 1260px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -106,7 +104,6 @@ a {
   color: #fff;
   border: none;
   cursor: pointer;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -130,7 +127,6 @@ a {
   line-height: 1;
   padding: 0;
   cursor: pointer;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -143,15 +139,9 @@ a {
 }
 
 .header__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__logo {
@@ -160,18 +150,14 @@ a {
 
 .header__logo-img {
   max-width: 177px;
-  min-height: 48px;
+  max-height: 48px;
   width: auto;
   height: auto;
 }
 
 .header__nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .header__nav-item {
@@ -187,16 +173,53 @@ a {
 }
 
 .header__actions {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 0 -42px;
 }
 
 .header__action {
   padding: 0 42px;
+}
+
+.footer {
+  padding: 74px 0;
+}
+
+.footer__wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 100px;
+  border-top: 2px solid #282a30;
+}
+
+.footer__nav {
+  width: 25%;
+  padding-right: 100px;
+}
+
+.footer__nav-title {
+  font: 700 26px/1.2 "Montserrat", Arial, Helvetica, sans-serif;
+  color: #282a30;
+  padding-bottom: 51px;
+}
+
+.footer__nav-item:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+.footer__nav-link {
+  font: 400 18px/1.2 "Montserrat", Arial, Helvetica, sans-serif;
+  color: #282a30;
+  opacity: 0.8;
+}
+
+.footer__nav-link:hover {
+  color: #f7515c;
+}
+
+.footer__nav:last-child {
+  padding-right: 0;
 }
 /*# sourceMappingURL=style.css.map */
