@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: $nunito-font;
+  font: $main-font;
+  margin: 0;
+  color: $main-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #282a30;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.container {
+  min-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

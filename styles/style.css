@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Nunit";
+  src: url("../fonts/Converted_fonts/NunitoSans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppinst";
+  src: url("../fonts/Converted_fonts/Poppins-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Converted_fonts/Montserrat-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Converted_fonts/Montserrat-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Converted_fonts/Montserrat-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Converted_fonts/Ubuntu-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font: 400 22px/1.36 "Nunito", Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #282a30;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #282a30;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.container {
+  min-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 26px 55px;
+  text-align: center;
+  font: 600 22px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+  background-color: #f7515c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #282a30;
+}
+
+.btn:focus {
+  background-color: rgba(40, 42, 48, 0.8);
+}
+
+.btn[disabled], .btn:disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.btn-icon {
+  background-color: transparent;
+  color: #000;
+  border: none;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-icon:hover {
+  color: #f7515c;
+}
+
+.header {
+  padding: 71px 0;
+}
+
+.header__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  line-height: 0;
+}
+
+.header__logo-img {
+  max-width: 177px;
+  min-height: 48px;
+  width: auto;
+  height: auto;
+}
+
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav-item {
+  padding: 0 53px;
+}
+
+.header__nav-link {
+  font: 400 19px/1.2 "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.header__nav-link:hover {
+  color: #f7515c;
+}
+
+.header__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 -42px;
+}
+
+.header__action {
+  padding: 0 42px;
+}
+/*# sourceMappingURL=style.css.map */
