@@ -89,9 +89,19 @@ a {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1280px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.main-title {
+  margin-bottom: 64px;
+  font: 700 100px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.main-title__shadow {
+  color: #fff;
+  text-shadow: 0 0 2px #000;
 }
 
 .btn {
@@ -180,6 +190,32 @@ a {
 
 .header__action {
   padding: 0 42px;
+}
+
+.media-guide {
+  padding: 139px 0 74px;
+}
+
+.media-guide__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-guide__inner--dots-right {
+  background: url("../img/dots.png") bottom right no-repeat;
+  padding-right: 79px;
+}
+
+.media-guide__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 450px;
+}
+
+.media-guide__img {
+  max-width: 506px;
 }
 
 .footer {

@@ -1,0 +1,23 @@
+.media-guide {
+  padding: 139px 0 74px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    &--dots-right {
+      background: url("../img/dots.png") bottom right no-repeat;
+      padding-right: 79px;
+    }
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 450px;
+  }
+
+  &__img {
+    max-width: 506px;
+  }
+}

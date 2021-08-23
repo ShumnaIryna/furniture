@@ -47,7 +47,17 @@ a {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1280px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.main-title {
+  margin-bottom: 64px;
+  font: $h1-font;
+
+  &__shadow {
+    color: $white-color;
+    text-shadow: 0 0 2px $black-color;
+  }
 }
