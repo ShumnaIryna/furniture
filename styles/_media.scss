@@ -4,17 +4,20 @@
   &__inner {
     display: flex;
     justify-content: space-between;
-    &--dots-right {
-      background: url("../img/dots.png") bottom right no-repeat;
-      padding-right: 79px;
-    }
+    background: url("../img/dots.png") bottom right no-repeat;
+    padding-right: 79px;
   }
   &__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: 450px;
+    max-width: 500px;
+    padding-right: 50px;
+
+    a {
+      margin-top: 64px;
+    }
   }
 
   &__img {
