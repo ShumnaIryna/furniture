@@ -1,5 +1,5 @@
 .header {
-  padding: 71px 0;
+  padding: 78px 0;
 
   &__wrap {
     display: flex;
@@ -25,7 +25,7 @@
     }
 
     &-item {
-      padding: 0 53px;
+      padding: 0 57px;
     }
 
     &-link {
@@ -43,5 +43,6 @@
   }
   &__action {
     padding: 0 42px;
+    line-height: 0;
   }
 }
