@@ -3,7 +3,7 @@
 
   &__wrap {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
 
   &__img {
@@ -62,7 +62,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 52%;
-    padding-top: 55px;
 
     .main-title {
       margin-bottom: 47px;

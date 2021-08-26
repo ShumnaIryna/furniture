@@ -322,7 +322,7 @@ a {
 
 .about__wrap {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .about__img {
@@ -381,7 +381,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 52%;
-  padding-top: 55px;
 }
 
 .about__text .main-title {
