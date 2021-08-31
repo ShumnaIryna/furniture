@@ -92,7 +92,6 @@ a {
   max-width: 1260px;
   padding: 0 20px;
   margin: 0 auto;
-  position: relative;
 }
 
 .main-title {
@@ -102,6 +101,10 @@ a {
 .main-title__shadow {
   color: #fff;
   text-shadow: 0 0 2px #000;
+}
+
+.pos-rel {
+  position: relative;
 }
 
 .btn {
@@ -592,8 +595,18 @@ a {
 .product__arrows {
   display: flex;
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 33px;
+  top: 53px;
+}
+
+.product__btn {
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: 2px solid #282a30;
+  border-radius: 10px;
+  margin-left: 47px;
+  cursor: pointer;
 }
 
 .media-guide {

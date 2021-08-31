@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="./fonts/fontawesome-free-5.15.3-web/fontawesome.15.3-web/css/all.min.css" rel="stylesheet"> -->
+    <link href="./fonts/fontawesome/css/all.min.css" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito+Sans:ital@1&family=Poppins:wght@700&display=swap"
     rel="stylesheet"> -->
 
@@ -172,7 +172,7 @@
         </div>
 
         <div class="product">
-            <div class="container">
+            <div class="container pos-rel">
                 <span class="product__label">Our you have to buy</span>
                 <span class="product__caption main-title main-title__shadow">Product</span>
                 <div class="product__general swiper">
@@ -269,12 +269,12 @@
 
                 </div>
                 <div class="product__arrows">
-                    <button class="product__btn swiper-button-next">
-                        <i class="far fa-arrow-alt-circle-right"></i>
+                    <button class="product__btn swiper-product-next">
+                        <i class="fas fa-chevron-left"></i>
                     </button>
 
-                    <button class="product__btn swiper-button-prev">
-                        <i class="far fa-arrow-alt-circle-left"></i>
+                    <button class="product__btn swiper-product-prev">
+                        <i class="fas fa-chevron-right"></i>
                     </button>
 
                 </div>
@@ -370,8 +370,8 @@
 
             // Navigation arrows
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-product-next',
+                prevEl: '.swiper-product-prev',
             },
         });
     </script>
