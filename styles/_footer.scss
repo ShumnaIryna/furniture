@@ -31,8 +31,35 @@
         color: $primary-color;
       }
     }
-    // &:last-child {
-    //   padding-right: 0;
-    // }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    &__wrap {
+      flex-wrap: wrap;
+      padding-top: 20px;
+    }
+
+    &__nav {
+      width: 50%;
+      margin-bottom: 30px;
+
+      &-title {
+        padding-bottom: 10px;
+      }
+
+      &-item:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .footer {
+    &__nav {
+      width: 100%;
+    }
   }
 }

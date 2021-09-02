@@ -110,6 +110,10 @@
       flex-direction: column;
     }
 
+    &__caption {
+      font: $h3-font;
+    }
+
     &__img {
       position: absolute;
       z-index: -1;
@@ -127,6 +131,18 @@
       &--long-warranty {
         align-self: flex-end;
       }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .advantages {
+    &__caption {
+      font: $h4-font;
+    }
+
+    &__card {
+      padding: 10px 10px 10px 15px;
     }
   }
 }

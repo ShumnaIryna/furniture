@@ -46,3 +46,58 @@
     line-height: 0;
   }
 }
+
+@media (max-width: 1024px) {
+  .header {
+    &__nav {
+      position: fixed;
+      width: 50%;
+      min-width: 380px;
+      background-color: #fff;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      padding: 61px 0;
+      transform: translateX(-100%);
+      transition: all 0.3s;
+      z-index: 9;
+
+      &-list {
+        display: block;
+      }
+      &-item {
+        padding: 0;
+      }
+      &-link {
+        display: block;
+        font: $h4-font;
+        padding: 10px 10px;
+      }
+
+      /* add class "is-open" to <nav class="header__nav"> result <nav class="header__nav header__nav-is-open"> */
+      &-is-open {
+        transform: translateX(0);
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.2);
+      }
+    }
+    &__action {
+      padding: 0px 30px;
+
+      .action-item-menu {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    &__wrap {
+      display: block;
+    }
+    &__actions {
+      padding-top: 30px;
+      padding-left: 15px;
+    }
+  }
+}
